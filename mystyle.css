@@ -35,3 +35,28 @@ address {
   margin-top: 1em;
   padding-top: 1em;
   border-top: thin dotted }
+
+img 0.jpg
+  {
+  position:absolute;
+  left:0px;
+  top:0px;
+  z-index:-1
+  }
+
+  .zIndexOne{
+    z-index: 1;background-color:Red
+  }
+  .zIndexTwo{
+    z-index:2;background-color:Yellow
+    left:40px;top:40px;
+  }
+  .zIndexThree{
+    z-index:3;background-color:blue
+    left:80px;top:80px;
+  }
+  .zIndexFour{
+    z-index:4;background-color:Green
+    left:120px;top:120px;
+  }
+  </style>
