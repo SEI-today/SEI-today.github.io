@@ -76,3 +76,5 @@ li:last-child{
 text-justify{
   margin-left: ($spacer * .25) !important;
 }
+
+.social{font-size:4rem;padding:4rem}
